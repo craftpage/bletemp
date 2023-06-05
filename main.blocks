@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="bluetooth_on_disconnected" id="l+8oi!;,.!XH?P%Y;[c;" x="0" y="0"><statement name="HANDLER"><block type="device_show_leds" id="-2LH@)?%Q}D,u;1F,89c"><field name="LEDS">`
+        # . . . # 
+        . # . # . 
+        . . # . . 
+        . # . # . 
+        # . . . #
+        `</field></block></statement></block><block type="bluetooth_on_connected" id="4IDPF%4Cu:F2Z!~w5%nw" x="267" y="60"><statement name="HANDLER"><block type="device_show_leds" id=";^@rN@?Y(3cTILeRW5mX"><field name="LEDS">`
+        . # . # . 
+        # . # . # 
+        # . . . # 
+        . # . # . 
+        . . # . .
+        `</field></block></statement></block><block type="pxt-on-start" id=".!4@FD#uRl7]jdgC^3,C" x="7" y="338"><statement name="HANDLER"><block type="bluetooth_start_temperature_service" id="ZldmkEW/:J7kKi(0L5NC"><next><block type="device_show_leds" id="2}QjSA?O%y*{p%u22);/"><field name="LEDS">`
+        # # # # # 
+        # . . . # 
+        # . . . # 
+        # . . . # 
+        # # # # #
+        `</field></block></next></block></statement></block></xml>
